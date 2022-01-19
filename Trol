@@ -1,0 +1,84 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local FEcar = Instance.new("TextButton")
+local FEinvis = Instance.new("TextButton")
+local FEtimefreeze = Instance.new("TextButton")
+local nofling = Instance.new("TextButton")
+local streamsniper = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(60, 61, 62)
+Frame.Position = UDim2.new(0.377227724, 0, 0.186813205, 0)
+Frame.Size = UDim2.new(0, 164, 0, 249)
+Frame.Active = true
+Frame.Draggable = true
+
+FEcar.Name = "FE car"
+FEcar.Parent = ScreenGui
+FEcar.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+FEcar.Position = UDim2.new(0.38316831, 0, 0.208791211, 0)
+FEcar.Size = UDim2.new(0, 151, 0, 38)
+FEcar.Font = Enum.Font.SourceSans
+FEcar.Text = "FE car"
+FEcar.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEcar.TextSize = 14.000
+FEcar.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cHEAYfLz",true))()
+end)
+
+FEinvis.Name = "FE invis"
+FEinvis.Parent = ScreenGui
+FEinvis.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+FEinvis.Position = UDim2.new(0.38316831, 0, 0.312087923, 0)
+FEinvis.Size = UDim2.new(0, 151, 0, 38)
+FEinvis.Font = Enum.Font.SourceSans
+FEinvis.Text = "FE invis"
+FEinvis.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEinvis.TextSize = 14.000
+FEinvis.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/Fe-invis/main/Fe%20invis"))()
+end)
+
+FEtimefreeze.Name = "FE time freeze"
+FEtimefreeze.Parent = ScreenGui
+FEtimefreeze.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+FEtimefreeze.Position = UDim2.new(0.38316831, 0, 0.417582422, 0)
+FEtimefreeze.Size = UDim2.new(0, 151, 0, 38)
+FEtimefreeze.Font = Enum.Font.SourceSans
+FEtimefreeze.Text = "FE time freeze"
+FEtimefreeze.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEtimefreeze.TextSize = 14.000
+FEtimefreeze.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/TIME-FREEZE/main/TIME%20FREEZE"))()
+end)
+
+nofling.Name = "no fling"
+nofling.Parent = ScreenGui
+nofling.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+nofling.Position = UDim2.new(0.38316831, 0, 0.52065742, 0)
+nofling.Size = UDim2.new(0, 151, 0, 38)
+nofling.Font = Enum.Font.SourceSans
+nofling.Text = "no fling"
+nofling.TextColor3 = Color3.fromRGB(0, 0, 0)
+nofling.TextSize = 14.000
+nofling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/no-fling/main/no%20fling"))()
+end)
+
+streamsniper.Name = "stream sniper"
+streamsniper.Parent = ScreenGui
+streamsniper.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+streamsniper.Position = UDim2.new(0.38316831, 0, 0.626151919, 0)
+streamsniper.Size = UDim2.new(0, 151, 0, 38)
+streamsniper.Font = Enum.Font.SourceSans
+streamsniper.Text = "stream sniper"
+streamsniper.TextColor3 = Color3.fromRGB(0, 0, 0)
+streamsniper.TextSize = 14.000
+streamsniper.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
+end)
